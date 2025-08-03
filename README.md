@@ -3,13 +3,13 @@
 
 This script creates an `assembly.conf` file compatible with **PHYLUCE**, listing sample names and paths to directories containing cleaned reads (after adapter trimming and quality filtering).
 
-## 🔧 Usage
+## Usage
 
 ```bash
 python generate_assembly_conf.py --clean_dir /path/to/clean_reads --output /path/to/assembly.conf
 ```
 
-## 📁 Expected directory structure
+##  Expected directory structure
 
 The `--clean_dir` directory must contain subdirectories named after your samples. Each subdirectory should include the cleaned FASTQ files (e.g., after running `Trim Galore`):
 
@@ -33,11 +33,11 @@ Mygalomorphae_001:/path/to/clean_reads/Mygalomorphae_001/
 Mygalomorphae_002:/path/to/clean_reads/Mygalomorphae_002/
 ```
 
-## 👨‍🔬 Author
+##  Author
 
 Tiago Belintani  
-Generated with ❤️ and Python
+Generated with love and Python
 
-## 📜 License
+##  License
 
 MIT
